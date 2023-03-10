@@ -124,7 +124,7 @@ void simuladorReina()
      tableroajedrez[x][y]=8;
 }
 
-void simuladorTorre()
+void simuladorRey()
 {
 	//*El rey se representará con una Q para que se note la diferencia*//
    int tableroajedrez[9][9];
@@ -186,7 +186,7 @@ int main()
          case 1: simuladorReina(); 
          break;
 
-         case 2: simuladorTorre();
+         case 2: simuladorRey();
          break;
 
          default: goto salir;
