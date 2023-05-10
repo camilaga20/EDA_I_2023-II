@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// definiciónde un nodo de la lista ligada circular
+// definición de un nodo de la lista ligada circular
 struct Nodo {
     int val;
     struct Nodo* siguiente;
